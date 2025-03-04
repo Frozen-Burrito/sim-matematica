@@ -80,6 +80,10 @@ def knapsack_parse(line: str):
     }
 
 
+def format_list(list, separator=" "):
+    return "[" + separator.join([str(item) for item in list]) + "]"
+
+
 if __name__ == "__main__":
     with open(INPUT_CSV_PATH, "r", encoding="utf-8") as input_csv:
         with open(OUTPUT_CSV_PATH, "w+", encoding="utf-8") as output_csv:
@@ -97,10 +101,10 @@ if __name__ == "__main__":
 
                 output_values = [
                     problem_id,
-                    inputs["weights"],
-                    inputs["prices"],
+                    format_list(inputs["weights"]),
+                    format_list(inputs["prices"]),
                     inputs["capacity"],
-                    solution["best_picks"],
+                    format_list(solution["best_picks"]),
                     solution["best_price"],
                     solution["avg_weight"],
                     solution["avg_price"],
