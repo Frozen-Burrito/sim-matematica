@@ -20,7 +20,7 @@ Aunque puede contribuirse al proyecto desde cualquier IDE, los siguientes pasos 
 
 Desde VS Code, abre la pestaña "source control" a la izquierda y presiona "Clonar repositorio". Luego, pega la URL de este repositorio:
 
-![Clonar repositorio desde VS Code][img/clonar_github.png]
+![Clonar repositorio desde VS Code](img/clonar_github.png)
 
 Después, elige la carpeta donde quieres guardar el repositorio.
 
