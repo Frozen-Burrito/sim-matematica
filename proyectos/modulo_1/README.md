@@ -1,4 +1,4 @@
-# Proyecto 1
+# Proyecto 1 - Predicción del rendimiento estudiantil de alumnos de preparatoria en lengua portuguesa
 
 Integrantes del equipo:
 
@@ -6,11 +6,11 @@ Integrantes del equipo:
 - Marianna Montserrat Curiel Zambrano
 - Fernando Mendoza Velasco
 
-**TODO: Descripción breve del proyecto**
+El dataset seleccionado surge a partir de un estudio que analiza el rendimiento estudiantil en educación media superior en dos escuelas portuguesas. Los atributos de los datos incluyen calificaciones estudiantiles, características demográficas, sociales y escolares, y se recopilaron mediante informes escolares y cuestionarios. Se muestran dos conjuntos de datos sobre el rendimiento en la asignatura de lengua portuguesa (POR). Dicho modelo fue hecho a partir de métodos de clasificación y regresión binaria o de cinco niveles. El atributo objetivo G3 que indica la calificación final del año escolar, por lo que la función objetivo fue deducida en base a este y a los demás atributos fuertemente relacionados con este.
 
 ## Dataset
 
-Publicado por el usuario "Ryan Dinh" como [Agricultural Production Optimization](https://www.kaggle.com/datasets/ryandinh/agricultural-production-optimization/data) en Kaggle. Consultado el 25 de febrero de 2025, última actualización en 2024.
+Publicado por el usuario "Data-Science Sean" como [Student Performance Data Set](https://www.kaggle.com/datasets/larsen0966/student-performance-data-set) en Kaggle. Consultado el 10 de marzo de 2025, última actualización en 2020.
 
 ## Get Started
 
@@ -68,9 +68,16 @@ Todo el código del proyecto está en el Jupyter Notebook del archivo `ProyectoM
 3. Presiona el botón con el ícono "play" para ejecutar el código. Puedes ejecutar una celda a la vez, o todas las celdas.
 
 ## Metodología
-
-**TODO**
+Se inició seleccionando un data set que incluyera previamente un documento CSV y la descripción de la mayoría de las variables presentadas. Una vez hecho eso, se realizó un análisis exploratorio de los datos, el cual consistió en entender las variables involucradas, visuzalizar algunos de los datos de forma gráfica y buscar correlaciones entre estos. Posteriormente se definió la variable objetivo la cual, para este caso, fue G3, que indica la calificación final de los estudiantes en la materia de lengua Portuguesa. Con esto y utilizando las relaciones encontradas entre las diferentes variables, se busco implementar la función objetivo excluyendo G1 y G2, que son las calificaciones de los primeros dos parciales. Para esto, se experimentó utilizando regresión lineal y clasificación binaria a través de regresión logística.
 
 ## Bibliografía
 
-**TODO**
+Amazon- (s.f.). ¿Qué es la regression lineal?. Obtenido de aws amazon: https://aws.amazon.com/es/what-is/linear-regression/ 
+
+Cortez, P. (2020). Student Performance Data Set. Obtenido de Kaggle: https://www.kaggle.com/datasets/larsen0966/student-performance-data-set
+
+Cortez, P., & Silva, A. (2008). Using data minig to predict secondary school student performance. University of Minho, 1-8.
+
+Qlik. (s.f.). Puntuación de modelos de clasificación binaria. Obtenido de Qlik.com: https://help.qlik.com/es-ES/cloud-services/Subsystems/Hub/Content/Sense_Hub/AutoML/scoring-binary-classification.htm#:~:text=Los%20modelos%20de%20clasificaci%C3%B3n%20binaria,fuertes%20y%20d%C3%A9biles%20del%20modelo.
+
+Shizuya, Y. (30 de April de 2024). Gentle introduction of Multiple linear regression. Obtenido de Medium: https://medium.com/intuition/gentle-introduction-of-multiple-linear-regression-e42fb21bbc8c
